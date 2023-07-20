@@ -1,0 +1,73 @@
+- code: L
+  description: You're entitled to the standard tax-free Personal Allowance
+- code: M
+  description: >-
+    Marriage Allowance: you've received a transfer of 10% of your partner's
+    Personal Allowance
+- code: "N"
+  description: >-
+    Marriage Allowance: you've transferred 10% of your Personal Allowance to
+    your partner
+- code: T
+  description: >-
+    Your tax code includes other calculations to work out your Personal
+    Allowance
+- code: 0T
+  description: >-
+    Your Personal Allowance has been used up or you've started a new job and
+    your employer does not have the details they need to give you a tax code
+- code: BR
+  description: >-
+    All your income from this job or pension is taxed at the basic rate (usually
+    used if you've got more than one job or pension)
+- code: D0
+  description: >-
+    All your income from this job or pension is taxed at the higher rate
+    (usually used if you've got more than one job or pension)
+- code: D1
+  description: >-
+    All your income from this job or pension is taxed at the additional rate
+    (usually used if you've got more than one job or pension)
+- code: NT
+  description: You're not paying any tax on this income
+- code: S
+  description: Your income or pension is taxed using the rates in Scotland
+- code: S0T
+  description: >-
+    Your Personal Allowance (Scotland) has been used up or you've started a new
+    job and your employer does not have the details they need to give you a tax
+    code
+- code: SBR
+  description: >-
+    All your income from this job or pension is taxed at the basic rate in
+    Scotland (usually used if you've got more than one job or pension)
+- code: SD0
+  description: >-
+    All your income from this job or pension is taxed at the intermediate rate
+    in Scotland (usually used if you've got more than one job or pension)
+- code: SD1
+  description: >-
+    All your income from this job or pension is taxed at the higher rate in
+    Scotland (usually used if you've got more than one job or pension)
+- code: SD2
+  description: >-
+    All your income from this job or pension is taxed at the top rate in
+    Scotland (usually used if you've got more than one job or pension)
+- code: C
+  description: Your income or pension is taxed using the rates in Wales
+- code: C0T
+  description: >-
+    Your Personal Allowance (Wales) has been used up or you've started a new job
+    and your employer does not have the details they need to give you a tax code
+- code: CBR
+  description: >-
+    All your income from this job or pension is taxed at the basic rate in Wales
+    (usually used if you've got more than one job or pension)
+- code: CD0
+  description: >-
+    All your income from this job or pension is taxed at the higher rate in
+    Wales (usually used if you've got more than one job or pension)
+- code: CD1
+  description: >-
+    All your income from this job or pension is taxed at the additional rate in
+    Wales (usually used if you've got more than one job or pension)

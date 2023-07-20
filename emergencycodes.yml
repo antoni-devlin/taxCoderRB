@@ -1,0 +1,10 @@
+- code: W1
+  description: Emergency tax code
+- code: M1
+  description: Emergency tax code
+- code: X
+  description: Emergency tax code
+- code: K
+  description: >-
+    You have income that is not being taxed another way and it's worth more than
+    your tax-free allowance.
