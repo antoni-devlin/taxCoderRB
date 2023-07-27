@@ -1,7 +1,7 @@
 require 'yaml'
 
 $taxcodes = YAML.load_file('taxcodes.yml')
-$emergencyCodes = YAML.load_file('taxcodes.yml')
+$emergencyCodes = YAML.load_file('emergencycodes.yml')
 
 def getUsersTaxCode(usersCode)
   #TODO: Add validation taxcode validation here
@@ -19,11 +19,13 @@ def checkCode(taxCode)
 end
 
 def checkEmergencyCode(taxCode)
+  emergencyOutcomes = []
   $emergencyCodes.each { |item|
     if taxCode.match(item["code"])
-      puts "As your tax code also contains #{item["code"]}, #{item["description"]}"
+      emergencyOutcomes.append("As your tax code also contains #{item["code"]}, #{item["description"]}")
     end 
   }
+  return emergencyOutcomes
 end
 
 def getPersonalAllowance(taxCode)
