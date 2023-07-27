@@ -1,7 +1,7 @@
 require 'yaml'
 
 $taxcodes = YAML.load_file('taxcodes.yml')
-$emergencyCodes = YAML.load_file('taxcodes.yml')
+$emergencyCodes = YAML.load_file('emergencycodes.yml')
 
 def getUsersTaxCode(usersCode)
   #TODO: Add validation taxcode validation here
