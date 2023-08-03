@@ -3,10 +3,6 @@ require_relative 'script'
 require 'sinatra'
 require "sinatra/reloader" if development?
 
-set :static, true
-set :public_folder, "static"
-set :views, "views"
-
 before do
   @pageTitle = "TaxSolver"
 end
