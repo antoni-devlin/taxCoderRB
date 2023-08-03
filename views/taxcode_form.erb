@@ -1,4 +1,13 @@
 <form action="/tax-code-form/" method="POST">
-    Your tax code: <input type="text" name="taxcode">
-    <input type="submit">
+    <div class="govuk-form-group">
+  <h1 class="govuk-label-wrapper">
+    <label class="govuk-label govuk-label--l" for="taxcode">
+      Your tax code
+    </label>
+  </h1>
+  <input class="govuk-input" id="taxcode" name="taxcode" type="taxcode">
+</div>
+    <button class="govuk-button" data-module="govuk-button">
+  Submit
+</button>
 </form>
